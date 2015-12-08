@@ -2,18 +2,9 @@
 
 namespace Claroline\AngularUiSelectizeBundle;
 
-use Claroline\CoreBundle\Library\PluginBundle;
-use Claroline\KernelBundle\Bundle\ConfigurationBuilder;
-use Claroline\AngularUiSelectizeBundle\Installation\AdditionalInstaller;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-/**
- * Bundle class.
- * Uncomment if necessary.
- */
-class ClarolineAngularUiSelectizeBundle extends PluginBundle
+class ClarolineAngularUiSelectizeBundle extends Bundle
 {
-    public function hasMigrations()
-    {
-        return false;
-    }
+
 }
